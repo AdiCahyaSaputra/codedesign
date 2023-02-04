@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-bg {
+    background-image: linear-gradient(to right, #0500FF, #F8FB76, #4EFF75, #00FFD1);
+    opacity: .2;
+  }
+}
