@@ -13,7 +13,7 @@ const Layout = ({ children }: Props) => {
       <Navbar/>
       <NoteLists/>
 
-      <div className='h-[5000px] col-span-6'>
+      <div className='col-span-6'>
         {children}
       </div>
 
